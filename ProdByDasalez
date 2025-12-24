@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Dasalez | Beats for Sale & Sound Engineering</title>
+<meta name="description" content="Buy beats and music licenses from Dasalez. Professional mixing, mastering, and sound engineering services.">
+<meta name="keywords" content="beats for sale, music producer, mixing, mastering, Dasalez, ProdByDasalez">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  font-family:Inter,sans-serif;
+  background:#0a0a0a;
+  color:#f2f2f2;
+  line-height:1.6;
+}
+nav{
+  position:fixed;
+  top:0;
+  width:100%;
+  background:#0a0a0a;
+  padding:15px 30px;
+  display:flex;
+  justify-content:space-between;
+  z-index:1000;
+}
+nav a{margin-left:20px;color:#fff;text-decoration:none;font-size:.9rem}
+section{
+  padding:100px 20px;
+  max-width:1100px;
+  margin:auto;
+}
+h1,h2,h3{font-weight:700}
+p{color:#cfcfcf}
+.btn{
+  display:inline-block;
+  padding:12px 26px;
+  border-radius:30px;
+  border:1px solid #fff;
+  margin-top:15px;
+  transition:.3s;
+}
+.btn.primary{background:#fff;color:#000}
+.btn:hover{opacity:.7}
+
+/* HERO */
+.hero{
+  min-height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  text-align:center;
+}
+
+/* GRID */
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:25px;
+  margin-top:40px;
+}
+.card{
+  background:#141414;
+  padding:25px;
+  border-radius:16px;
+}
+
+/* AUDIO */
+audio{
+  width:100%;
+  margin-top:10px;
+}
+
+/* FORM */
+form{
+  max-width:500px;
+  margin-top:30px;
+}
+input,textarea{
+  width:100%;
+  padding:14px;
+  margin-bottom:12px;
+  border:none;
+  border-radius:8px;
+}
+
+/* FOOTER */
+footer{
+  text-align:center;
+  padding:40px;
+  font-size:.85rem;
+  color:#777;
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAV -->
+<nav>
+  <strong>Dasalez</strong>
+  <div>
+    <a href="#beats">Beats</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <h1>Dasalez</h1>
+  <p>Music Producer & Sound Engineer — ProdByDasalez</p>
+  <a href="#beats" class="btn primary">Buy Beats</a>
+</section>
+
+<!-- BEATS -->
+<section id="beats">
+<h2>Beats for Sale</h2>
+<p>Preview beats and purchase licenses instantly.</p>
+
+<div class="grid">
+
+<div class="card">
+<h3>Midnight Flow</h3>
+<audio controls src="beats/beat1.mp3"></audio>
+<p>Trap • 140 BPM</p>
+<a href="https://beatstars.com/YOURNAME" class="btn primary">Buy on BeatStars</a>
+<a href="https://gumroad.com/YOURNAME" class="btn">Buy on Gumroad</a>
+</div>
+
+<div class="card">
+<h3>Dark Echo</h3>
+<audio controls src="beats/beat2.mp3"></audio>
+<p>Drill • 142 BPM</p>
+<a href="https://paypal.me/YOURNAME" class="btn primary">PayPal</a>
+<a href="https://buy.stripe.com/YOURSTRIPELINK" class="btn">Stripe</a>
+</div>
+
+<div class="card">
+<h3>Neon Nights</h3>
+<audio controls src="beats/beat3.mp3"></audio>
+<p>R&B • 120 BPM</p>
+<a href="/licenses.pdf" class="btn">License Terms</a>
+</div>
+
+</div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+<h2>Sound Engineering Services</h2>
+<p>Professional audio services for artists and creators.</p>
+
+<div class="grid">
+<div class="card"><h3>🎚 Mixing</h3><p>Industry-level balance & clarity.</p></div>
+<div class="card"><h3>🔊 Mastering</h3><p>Streaming-ready loudness.</p></div>
+<div class="card"><h3>🎶 Production</h3><p>Custom beats & arrangements.</p></div>
+<div class="card"><h3>🎤 Recording</h3><p>Studio-quality vocal tracking.</p></div>
+</div>
+</section>
+
+<!-- ABOUT -->
+<section>
+<h2>About</h2>
+<p>
+Dasalez is a music producer and sound engineer focused on modern,
+high-quality audio. From selling beats to delivering professional
+mixing and mastering, Dasalez helps artists release music confidently.
+</p>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+<h2>Contact / Book a Session</h2>
+
+<form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+  <input type="text" name="name" placeholder="Your Name" required>
+  <input type="email" name="email" placeholder="Your Email" required>
+  <textarea name="message" placeholder="What do you need?" required></textarea>
+  <button class="btn primary" type="submit">Send</button>
+</form>
+
+<p style="margin-top:20px">
+📧 your@email.com<br>
+<a href="#">Instagram</a> • <a href="#">TikTok</a> • <a href="#">YouTube</a>
+</p>
+</section>
+
+<footer>
+© 2025 Dasalez — ProdByDasalez
+</footer>
+
+</body>
+</html>
